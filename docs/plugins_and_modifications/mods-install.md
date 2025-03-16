@@ -12,6 +12,7 @@ keywords:
   - Minecraft
   - Fabric
   - Forge
+  - Neoforge
   - Mods
 ---
 # Install Guide

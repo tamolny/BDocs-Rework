@@ -32,38 +32,77 @@ import TabItem from '@theme/TabItem';
 ---
 
 ## Modded Minecraft:
+
 <Tabs groupId="Modded Installers">
   <TabItem value="Forge" label="Forge">
-
-    ### [Forge](https://files.minecraftforge.net/) ([Installation Guide](forge-setup))
+  
+   ### [Forge](https://files.minecraftforge.net/)
 Forge is a jar that adds a modding API for developers to tap into. It is much more expansive than Bukkit, as players also have to install mods on their end, allowing for more possibilites. It's recommended for mods and modpacks. Mostly used for older versions of the game. (pre1.12)
 
-  </TabItem>
-  <TabItem value="Fabric" label="Fabric">
+  ---
 
-    ### [Fabric](https://fabricmc.net/) ([Installation Guide](fabric-setup))
+  ### What is Forge?
+  
+  > Forge is a modding API for Minecraft. Users who download and install Minecraft Forge can install mods (modifications) to Minecraft Instances.
+  
+  ### Installation
+  
+  First, navigate to the `Settings` tab and find `Change Server Type`. Once there set up the change server type menu for installing forge.
+  
+  ![](/plugins_and_modifications/forge_setup/1.png)
+  
+  On this menu set version to that required by your mods and build to the latest one available (top of the list).
+  
+  Once the Change Server Type menu has been configured, press the Change Server Type button, this will prompt you to [make a backup](../using_the_panel/backups.md) and it is advised to do so.
+  
+  Once the server has started again and finished running the installer you can go on to install mods!
+  
+  ### Installing Forge Mods
+  >
+  > Refer to [this](mods-install.md) guide.
+  
+  ---
+  
+  </TabItem>
+
+  <TabItem value="Fabric" label="Fabric">
+  
+  ### [Fabric](https://fabricmc.net/)
 Fabric is a jar that makes modding easier and smoother than Forge. Fabric is considered superior to Forge due to a better API that is more documented. It's mostly used for more modern versions of the game.   
 Fabric, with a few performance mods added, is recommended if you want to run a modern technical MC server.
 
+  ---
+  
+  ### What is Fabric?
+  "*Fabric is a lightweight, experimental modding toolchain for Minecraft.*"
+   
+  Mods can be used to modify, remove or even add new content to Minecraft.
+  
+  
+  ### Installing Fabric
+  Go the the Settings tab on the panel and on the right side you will see Change Server Type box. 
+  Edit the boxes to the fabric version you would like to use.
+  
+  ![Bloom.host Fabric](/plugins_and_modifications/fabric_setup/FabricInstaller.png)
+  
+  Click Change Server Type, this will download fabric to your server. 
+  
+  You are now done, you are running a fabric server!  
+  It's a server without mods though, so it's still purely vanilla at this point, keep reading to learn how to install mods.
+  
+  ### Installing Fabric Mods
+  > 
+  > Refer to [this](mods-install.md) guide.
+  
+  ---
+  
   </TabItem>
   <TabItem value="Neoforge" label="Neoforge">
-
-    ### [NeoForge](https://neoforged.net/) ([Installation Guide](neoforge-setup))
+      
+  ### [NeoForge](https://neoforged.net/)
 NeoForge is a jar that adds the modding api of Forge, and performance of Fabric. While still being new and becoming widely adopted. Used in modern versions of the game.
 
-  </TabItem>
-</Tabs>
 
-<Tabs groupId="Modded Installers">
-  <TabItem value="Forge" label="Forge Installer">
-  Install guide here
-  </TabItem>
-
-  <TabItem value="Fabric" label="Fabric Installer">
-  Install guide for fabric
-  </TabItem>
-  <TabItem value="Neoforge" label="Neoforge Installer">
-  
   ---
   ### What is Neoforge?
   "*Neoforge is a new mod loader that incorperates Neoforge performance and Forge api*"
@@ -83,9 +122,9 @@ NeoForge is a jar that adds the modding api of Forge, and performance of Fabric.
   It's a server without mods though, so it's still purely vanilla at this point, keep reading to learn how to install mods.
   
   ### Installing Neoforge Mods
-  
-  Refer to [this](mods-install.md) guide.
-  
+  >
+  > Refer to [this](mods-install.md) guide.
+
   ---
 
   </TabItem>

@@ -68,26 +68,25 @@ module.exports = {
             label: 'Running a Server',
             collapsed: true,
             items: [
-                'running_a_server/updating', // How to update
-                'running_a_server/jars', // Explains the different server JAR file options
-                'running_a_server/optimization', // Server optimisation information
-                'running_a_server/world-reset',
-                'running_a_server/domain',
-                'running_a_server/java-version',
-                'running_a_server/datapacks',
-                'running_a_server/spark',
-                'running_a_server/timings', // Deprecated, will be removed in a future version of Paper (https://github.com/PaperMC/Paper/discussions/10565)
-                'running_a_server/icon',
-                'running_a_server/motd',
-                'running_a_server/whitelist', // How to turn on whitelist for both Java and Bedrock
-                'running_a_server/resourcepack',
-                'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
-                'running_a_server/waterfall', // [Unsupported] BungeeCord fork
-                'running_a_server/velocity',
-                'running_a_server/internal-servers',
-                'running_a_server/binarysearch', // Troubleshooting errors caused by plugins
-                'running_a_server/worlds',
-                'running_a_server/mcaselector'
+                'minecraft/running_a_server/updating', // How to update
+                'minecraft/running_a_server/jars', // Explains the different server JAR file options
+                'minecraft/running_a_server/optimization', // Server optimisation information
+                'minecraft/running_a_server/world-reset',
+                'minecraft/running_a_server/domain',
+                'minecraft/running_a_server/java-version',
+                'minecraft/running_a_server/datapacks',
+                'minecraft/running_a_server/spark',
+                'minecraft/running_a_server/icon',
+                'minecraft/running_a_server/motd',
+                'minecraft/running_a_server/whitelist', // How to turn on whitelist for both Java and Bedrock
+                'minecraft/running_a_server/resourcepack',
+                'minecraft/running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
+                'minecraft/running_a_server/waterfall', // [Unsupported] BungeeCord fork
+                'minecraft/running_a_server/velocity',
+                'minecraft/running_a_server/internal-servers',
+                'minecraft/running_a_server/binarysearch', // Troubleshooting errors caused by plugins
+                'minecraft/running_a_server/worlds',
+                'minecraft/running_a_server/mcaselector'
             ],
         },
 
@@ -169,25 +168,25 @@ module.exports = {
             items: [
                 {
                     type: 'doc',
-                    id: "plugins_and_modifications/installing-plugin", // Bukkit/Spigot/Paper plugin installation guide
+                    id: "minecraft/plugins_and_modifications/installing-plugin", // Bukkit/Spigot/Paper plugin installation guide
                 },
                 {
                     type: 'doc',
-                    id: "plugins_and_modifications/mods-install", // Mods install guide for both Forge and Fabric and Neoforge
+                    id: "minecraft/plugins_and_modifications/mods-install", // Mods install guide for both Forge and Fabric and Neoforge
                 },
                 {
                     type: 'doc',
-                    id: "plugins_and_modifications/modpacks",
+                    id: "minecraft/plugins_and_modifications/modpacks",
                 },
                 {
                     type: 'doc',
-                    id: "plugins_and_modifications/gtnh", //GTNH
+                    id: "minecraft/plugins_and_modifications/gtnh", //GTNH
                 },
                 {
                     type: 'category',
                     label: "Fabric mods",
                     items: [ // Note: Chunky and LuckPerms pages were moved to multiplatform category
-                        'plugins_and_modifications/fabric_mods/performance-mods' // Mods intended to improve client/server performance
+                        'minecraft/plugins_and_modifications/fabric_mods/performance-mods' // Mods intended to improve client/server performance
                     ]
                 },
 
@@ -195,16 +194,16 @@ module.exports = {
                     type: 'category',
                     label: "Multi-platform plugins & mods",
                     items: [
-                        'plugins_and_modifications/multiplatform/advancedban', // Bans and punishment manager (Bukkit/Spigot/Paper, BungeeCord)
-                        'plugins_and_modifications/multiplatform/bluemap', // 3D web map (Spigot/Paper, Paper/Folia, Forge, Fabric, Neoforge, Sponge)
-                        'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric, Forge)
-                        'plugins_and_modifications/multiplatform/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
-                        'plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord, Velocity)
-                        'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Forge, Fabric, Nukkit, Velocity)
-                        'plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
-                        'plugins_and_modifications/multiplatform/simple-voice-chat', // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
-                        'plugins_and_modifications/multiplatform/squaremap', // Online map (Paper, Fabric, Sponge)
-                        'plugins_and_modifications/multiplatform/worldedit' // World management (Bukkit, Forge, Fabric, Sponge)
+                        'minecraft/plugins_and_modifications/multiplatform/advancedban', // Bans and punishment manager (Bukkit/Spigot/Paper, BungeeCord)
+                        'minecraft/plugins_and_modifications/multiplatform/bluemap', // 3D web map (Spigot/Paper, Paper/Folia, Forge, Fabric, Neoforge, Sponge)
+                        'minecraft/plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric, Forge)
+                        'minecraft/plugins_and_modifications/multiplatform/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
+                        'minecraft/plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord, Velocity)
+                        'minecraft/plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Forge, Fabric, Nukkit, Velocity)
+                        'minecraft/plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
+                        'minecraft/plugins_and_modifications/multiplatform/simple-voice-chat', // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
+                        'minecraft/plugins_and_modifications/multiplatform/squaremap', // Online map (Paper, Fabric, Sponge)
+                        'minecraft/plugins_and_modifications/multiplatform/worldedit' // World management (Bukkit, Forge, Fabric, Sponge)
                     ]
                 },
 
@@ -212,36 +211,36 @@ module.exports = {
                     type: 'category',
                     label: "Plugins", // Bukkit/Spigot/Paper plugins
                     items: [ // Note: Chunky, LiteBans, LuckPerms and PLAN pages were moved to multiplatform category
-                        'plugins_and_modifications/plugins/advancedanticheat', // anticheat (discontinued)
-                        'plugins_and_modifications/plugins/ajparkour', // ajParkour
-                        'plugins_and_modifications/plugins/banannouncer', // announce bans in discord
-                        'plugins_and_modifications/plugins/citizens2',
-                        'plugins_and_modifications/plugins/conditionalcommands',
-                        'plugins_and_modifications/plugins/coreprotect',
-                        'plugins_and_modifications/plugins/craftingstore',
-                        'plugins_and_modifications/plugins/discordsrv', //Discord <-> Minecraft bridge
-                        'plugins_and_modifications/plugins/essentialsx',
-                        'plugins_and_modifications/plugins/floodgate', // Works with GeyserMC to allow bedrock connections, without a Java Edition account.
-                        'plugins_and_modifications/plugins/geysermc', // Minecraft Bedrock player bridge
-                        'plugins_and_modifications/plugins/geyseraddons', // GeyserMC addons
-                        'plugins_and_modifications/plugins/griefprevention',
-                        'plugins_and_modifications/plugins/milk',
-                        'plugins_and_modifications/plugins/multiverse', //Bukkit multi-world manager
-                        'plugins_and_modifications/plugins/papi', // PlaceholderAPI
-                        'plugins_and_modifications/plugins/prism',
-                        'plugins_and_modifications/plugins/servernpc',
-                        'plugins_and_modifications/plugins/tebex', // Minecraft server donation store integration, formerly known as BuyCraft
-                        'plugins_and_modifications/plugins/vault',
-                        'plugins_and_modifications/plugins/venturechat', // Chat handler
-                        'plugins_and_modifications/plugins/viaversion',
-                        'plugins_and_modifications/plugins/votifier', // Minecraft server vote site listener
-                        'plugins_and_modifications/plugins/vulcan', // anticheat
-                        'plugins_and_modifications/plugins/oraxen',
-                        'plugins_and_modifications/plugins/denizen',
-                        'plugins_and_modifications/plugins/ajLeaderboards',
-                        'plugins_and_modifications/plugins/AdvancedEnchantments',
-                        'plugins_and_modifications/plugins/CMI',
-                        "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
+                        'minecraft/plugins_and_modifications/plugins/advancedanticheat', // anticheat (discontinued)
+                        'minecraft/plugins_and_modifications/plugins/ajparkour', // ajParkour
+                        'minecraft/plugins_and_modifications/plugins/banannouncer', // announce bans in discord
+                        'minecraft/plugins_and_modifications/plugins/citizens2',
+                        'minecraft/plugins_and_modifications/plugins/conditionalcommands',
+                        'minecraft/plugins_and_modifications/plugins/coreprotect',
+                        'minecraft/plugins_and_modifications/plugins/craftingstore',
+                        'minecraft/plugins_and_modifications/plugins/discordsrv', //Discord <-> Minecraft bridge
+                        'minecraft/plugins_and_modifications/plugins/essentialsx',
+                        'minecraft/plugins_and_modifications/plugins/floodgate', // Works with GeyserMC to allow bedrock connections, without a Java Edition account.
+                        'minecraft/plugins_and_modifications/plugins/geysermc', // Minecraft Bedrock player bridge
+                        'minecraft/plugins_and_modifications/plugins/geyseraddons', // GeyserMC addons
+                        'minecraft/plugins_and_modifications/plugins/griefprevention',
+                        'minecraft/plugins_and_modifications/plugins/milk',
+                        'minecraft/plugins_and_modifications/plugins/multiverse', //Bukkit multi-world manager
+                        'minecraft/plugins_and_modifications/plugins/papi', // PlaceholderAPI
+                        'minecraft/plugins_and_modifications/plugins/prism',
+                        'minecraft/plugins_and_modifications/plugins/servernpc',
+                        'minecraft/plugins_and_modifications/plugins/tebex', // Minecraft server donation store integration, formerly known as BuyCraft
+                        'minecraft/plugins_and_modifications/plugins/vault',
+                        'minecraft/plugins_and_modifications/plugins/venturechat', // Chat handler
+                        'minecraft/plugins_and_modifications/plugins/viaversion',
+                        'minecraft/plugins_and_modifications/plugins/votifier', // Minecraft server vote site listener
+                        'minecraft/plugins_and_modifications/plugins/vulcan', // anticheat
+                        'minecraft/plugins_and_modifications/plugins/oraxen',
+                        'minecraft/plugins_and_modifications/plugins/denizen',
+                        'minecraft/plugins_and_modifications/plugins/ajLeaderboards',
+                        'minecraft/plugins_and_modifications/plugins/AdvancedEnchantments',
+                        'minecraft/plugins_and_modifications/plugins/CMI',
+                        "minecraft/plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
                     ]
                 }
             ]
